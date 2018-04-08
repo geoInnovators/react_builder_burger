@@ -1,8 +1,9 @@
-import React, { Fragment } from 'react'
+import React, {Fragment} from 'react';
+
 import classes from './Modal.css';
 import Backdrop from '../Backdrop/Backdrop';
 
-const Modal = (props) => (
+const modal = ( props ) => (
     <Fragment>
         <Backdrop show={props.show} clicked={props.modalClosed} />
         <div
@@ -16,4 +17,4 @@ const Modal = (props) => (
     </Fragment>
 );
 
-export default Modal;
+export default modal;
